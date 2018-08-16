@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ECFBD4C212524F900B2DBDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECFBD4B212524F900B2DBDA /* AppDelegate.m */; };
+		5ECFBD4F212524F900B2DBDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECFBD4E212524F900B2DBDA /* ViewController.m */; };
+		5ECFBD52212524F900B2DBDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFBD50212524F900B2DBDA /* Main.storyboard */; };
+		5ECFBD54212524F900B2DBDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFBD53212524F900B2DBDA /* Assets.xcassets */; };
+		5ECFBD57212524F900B2DBDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFBD55212524F900B2DBDA /* LaunchScreen.storyboard */; };
+		5ECFBD5A212524F900B2DBDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECFBD59212524F900B2DBDA /* main.m */; };
+		5ECFBD64212524F900B2DBDA /* CQ_SignatureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECFBD63212524F900B2DBDA /* CQ_SignatureTests.m */; };
+		5ECFBD6F212524FA00B2DBDA /* CQ_SignatureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECFBD6E212524FA00B2DBDA /* CQ_SignatureUITests.m */; };
+		5ECFBD7D2125253800B2DBDA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFBD7C2125253800B2DBDA /* ViewController.xib */; };
+		5ECFBD85212525D300B2DBDA /* YYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECFBD7F212525D200B2DBDA /* YYView.m */; };
+		5ECFBD86212525D300B2DBDA /* UIImage+YYcaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECFBD80212525D200B2DBDA /* UIImage+YYcaptureView.m */; };
+		5ECFBD87212525D300B2DBDA /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECFBD83212525D200B2DBDA /* DrawViewController.m */; };
+		5ECFBD95212525DB00B2DBDA /* penThin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFBD89212525DB00B2DBDA /* penThin.png */; };
+		5ECFBD96212525DB00B2DBDA /* penThickSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFBD8A212525DB00B2DBDA /* penThickSelect.png */; };
+		5ECFBD97212525DB00B2DBDA /* penThick.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFBD8B212525DB00B2DBDA /* penThick.png */; };
+		5ECFBD98212525DB00B2DBDA /* penRedSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFBD8C212525DB00B2DBDA /* penRedSelect.png */; };
+		5ECFBD99212525DB00B2DBDA /* penBlackSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFBD8D212525DB00B2DBDA /* penBlackSelect.png */; };
+		5ECFBD9A212525DB00B2DBDA /* penBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFBD8E212525DB00B2DBDA /* penBlue.png */; };
+		5ECFBD9B212525DB00B2DBDA /* penMiddleSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFBD8F212525DB00B2DBDA /* penMiddleSelect.png */; };
+		5ECFBD9C212525DB00B2DBDA /* penMiddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFBD90212525DB00B2DBDA /* penMiddle.png */; };
+		5ECFBD9D212525DB00B2DBDA /* penThinSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFBD91212525DB00B2DBDA /* penThinSelect.png */; };
+		5ECFBD9E212525DB00B2DBDA /* penBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFBD92212525DB00B2DBDA /* penBlack.png */; };
+		5ECFBD9F212525DB00B2DBDA /* penBlueSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFBD93212525DB00B2DBDA /* penBlueSelect.png */; };
+		5ECFBDA0212525DB00B2DBDA /* penRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ECFBD94212525DB00B2DBDA /* penRed.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ECFBD60212524F900B2DBDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ECFBD3F212524F900B2DBDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ECFBD46212524F900B2DBDA;
+			remoteInfo = CQ_Signature;
+		};
+		5ECFBD6B212524FA00B2DBDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ECFBD3F212524F900B2DBDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ECFBD46212524F900B2DBDA;
+			remoteInfo = CQ_Signature;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5ECFBD47212524F900B2DBDA /* CQ_Signature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CQ_Signature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECFBD4A212524F900B2DBDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5ECFBD4B212524F900B2DBDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5ECFBD4D212524F900B2DBDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5ECFBD4E212524F900B2DBDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5ECFBD51212524F900B2DBDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5ECFBD53212524F900B2DBDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ECFBD56212524F900B2DBDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5ECFBD58212524F900B2DBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ECFBD59212524F900B2DBDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5ECFBD5F212524F900B2DBDA /* CQ_SignatureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CQ_SignatureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECFBD63212524F900B2DBDA /* CQ_SignatureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQ_SignatureTests.m; sourceTree = "<group>"; };
+		5ECFBD65212524FA00B2DBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ECFBD6A212524FA00B2DBDA /* CQ_SignatureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CQ_SignatureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECFBD6E212524FA00B2DBDA /* CQ_SignatureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQ_SignatureUITests.m; sourceTree = "<group>"; };
+		5ECFBD70212524FA00B2DBDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ECFBD7C2125253800B2DBDA /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		5ECFBD7F212525D200B2DBDA /* YYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYView.m; sourceTree = "<group>"; };
+		5ECFBD80212525D200B2DBDA /* UIImage+YYcaptureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YYcaptureView.m"; sourceTree = "<group>"; };
+		5ECFBD81212525D200B2DBDA /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		5ECFBD82212525D200B2DBDA /* YYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYView.h; sourceTree = "<group>"; };
+		5ECFBD83212525D200B2DBDA /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		5ECFBD84212525D200B2DBDA /* UIImage+YYcaptureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YYcaptureView.h"; sourceTree = "<group>"; };
+		5ECFBD89212525DB00B2DBDA /* penThin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penThin.png; sourceTree = "<group>"; };
+		5ECFBD8A212525DB00B2DBDA /* penThickSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penThickSelect.png; sourceTree = "<group>"; };
+		5ECFBD8B212525DB00B2DBDA /* penThick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penThick.png; sourceTree = "<group>"; };
+		5ECFBD8C212525DB00B2DBDA /* penRedSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penRedSelect.png; sourceTree = "<group>"; };
+		5ECFBD8D212525DB00B2DBDA /* penBlackSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penBlackSelect.png; sourceTree = "<group>"; };
+		5ECFBD8E212525DB00B2DBDA /* penBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penBlue.png; sourceTree = "<group>"; };
+		5ECFBD8F212525DB00B2DBDA /* penMiddleSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penMiddleSelect.png; sourceTree = "<group>"; };
+		5ECFBD90212525DB00B2DBDA /* penMiddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penMiddle.png; sourceTree = "<group>"; };
+		5ECFBD91212525DB00B2DBDA /* penThinSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penThinSelect.png; sourceTree = "<group>"; };
+		5ECFBD92212525DB00B2DBDA /* penBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penBlack.png; sourceTree = "<group>"; };
+		5ECFBD93212525DB00B2DBDA /* penBlueSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penBlueSelect.png; sourceTree = "<group>"; };
+		5ECFBD94212525DB00B2DBDA /* penRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penRed.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ECFBD44212524F900B2DBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECFBD5C212524F900B2DBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECFBD67212524FA00B2DBDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ECFBD3E212524F900B2DBDA = {
+			isa = PBXGroup;
+			children = (
+				5ECFBD49212524F900B2DBDA /* CQ_Signature */,
+				5ECFBD62212524F900B2DBDA /* CQ_SignatureTests */,
+				5ECFBD6D212524FA00B2DBDA /* CQ_SignatureUITests */,
+				5ECFBD48212524F900B2DBDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ECFBD48212524F900B2DBDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ECFBD47212524F900B2DBDA /* CQ_Signature.app */,
+				5ECFBD5F212524F900B2DBDA /* CQ_SignatureTests.xctest */,
+				5ECFBD6A212524FA00B2DBDA /* CQ_SignatureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ECFBD49212524F900B2DBDA /* CQ_Signature */ = {
+			isa = PBXGroup;
+			children = (
+				5ECFBD4A212524F900B2DBDA /* AppDelegate.h */,
+				5ECFBD4B212524F900B2DBDA /* AppDelegate.m */,
+				5ECFBD4D212524F900B2DBDA /* ViewController.h */,
+				5ECFBD4E212524F900B2DBDA /* ViewController.m */,
+				5ECFBD7C2125253800B2DBDA /* ViewController.xib */,
+				5ECFBD88212525DB00B2DBDA /* image */,
+				5ECFBD7E212525D200B2DBDA /* CQSignature */,
+				5ECFBD50212524F900B2DBDA /* Main.storyboard */,
+				5ECFBD53212524F900B2DBDA /* Assets.xcassets */,
+				5ECFBD55212524F900B2DBDA /* LaunchScreen.storyboard */,
+				5ECFBD58212524F900B2DBDA /* Info.plist */,
+				5ECFBD59212524F900B2DBDA /* main.m */,
+			);
+			path = CQ_Signature;
+			sourceTree = "<group>";
+		};
+		5ECFBD62212524F900B2DBDA /* CQ_SignatureTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ECFBD63212524F900B2DBDA /* CQ_SignatureTests.m */,
+				5ECFBD65212524FA00B2DBDA /* Info.plist */,
+			);
+			path = CQ_SignatureTests;
+			sourceTree = "<group>";
+		};
+		5ECFBD6D212524FA00B2DBDA /* CQ_SignatureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5ECFBD6E212524FA00B2DBDA /* CQ_SignatureUITests.m */,
+				5ECFBD70212524FA00B2DBDA /* Info.plist */,
+			);
+			path = CQ_SignatureUITests;
+			sourceTree = "<group>";
+		};
+		5ECFBD7E212525D200B2DBDA /* CQSignature */ = {
+			isa = PBXGroup;
+			children = (
+				5ECFBD7F212525D200B2DBDA /* YYView.m */,
+				5ECFBD80212525D200B2DBDA /* UIImage+YYcaptureView.m */,
+				5ECFBD81212525D200B2DBDA /* DrawViewController.h */,
+				5ECFBD82212525D200B2DBDA /* YYView.h */,
+				5ECFBD83212525D200B2DBDA /* DrawViewController.m */,
+				5ECFBD84212525D200B2DBDA /* UIImage+YYcaptureView.h */,
+			);
+			path = CQSignature;
+			sourceTree = "<group>";
+		};
+		5ECFBD88212525DB00B2DBDA /* image */ = {
+			isa = PBXGroup;
+			children = (
+				5ECFBD89212525DB00B2DBDA /* penThin.png */,
+				5ECFBD8A212525DB00B2DBDA /* penThickSelect.png */,
+				5ECFBD8B212525DB00B2DBDA /* penThick.png */,
+				5ECFBD8C212525DB00B2DBDA /* penRedSelect.png */,
+				5ECFBD8D212525DB00B2DBDA /* penBlackSelect.png */,
+				5ECFBD8E212525DB00B2DBDA /* penBlue.png */,
+				5ECFBD8F212525DB00B2DBDA /* penMiddleSelect.png */,
+				5ECFBD90212525DB00B2DBDA /* penMiddle.png */,
+				5ECFBD91212525DB00B2DBDA /* penThinSelect.png */,
+				5ECFBD92212525DB00B2DBDA /* penBlack.png */,
+				5ECFBD93212525DB00B2DBDA /* penBlueSelect.png */,
+				5ECFBD94212525DB00B2DBDA /* penRed.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ECFBD46212524F900B2DBDA /* CQ_Signature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ECFBD73212524FA00B2DBDA /* Build configuration list for PBXNativeTarget "CQ_Signature" */;
+			buildPhases = (
+				5ECFBD43212524F900B2DBDA /* Sources */,
+				5ECFBD44212524F900B2DBDA /* Frameworks */,
+				5ECFBD45212524F900B2DBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CQ_Signature;
+			productName = CQ_Signature;
+			productReference = 5ECFBD47212524F900B2DBDA /* CQ_Signature.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ECFBD5E212524F900B2DBDA /* CQ_SignatureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ECFBD76212524FA00B2DBDA /* Build configuration list for PBXNativeTarget "CQ_SignatureTests" */;
+			buildPhases = (
+				5ECFBD5B212524F900B2DBDA /* Sources */,
+				5ECFBD5C212524F900B2DBDA /* Frameworks */,
+				5ECFBD5D212524F900B2DBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ECFBD61212524F900B2DBDA /* PBXTargetDependency */,
+			);
+			name = CQ_SignatureTests;
+			productName = CQ_SignatureTests;
+			productReference = 5ECFBD5F212524F900B2DBDA /* CQ_SignatureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5ECFBD69212524FA00B2DBDA /* CQ_SignatureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ECFBD79212524FA00B2DBDA /* Build configuration list for PBXNativeTarget "CQ_SignatureUITests" */;
+			buildPhases = (
+				5ECFBD66212524FA00B2DBDA /* Sources */,
+				5ECFBD67212524FA00B2DBDA /* Frameworks */,
+				5ECFBD68212524FA00B2DBDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ECFBD6C212524FA00B2DBDA /* PBXTargetDependency */,
+			);
+			name = CQ_SignatureUITests;
+			productName = CQ_SignatureUITests;
+			productReference = 5ECFBD6A212524FA00B2DBDA /* CQ_SignatureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ECFBD3F212524F900B2DBDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = abc123;
+				TargetAttributes = {
+					5ECFBD46212524F900B2DBDA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5ECFBD5E212524F900B2DBDA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5ECFBD46212524F900B2DBDA;
+					};
+					5ECFBD69212524FA00B2DBDA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5ECFBD46212524F900B2DBDA;
+					};
+				};
+			};
+			buildConfigurationList = 5ECFBD42212524F900B2DBDA /* Build configuration list for PBXProject "CQ_Signature" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ECFBD3E212524F900B2DBDA;
+			productRefGroup = 5ECFBD48212524F900B2DBDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ECFBD46212524F900B2DBDA /* CQ_Signature */,
+				5ECFBD5E212524F900B2DBDA /* CQ_SignatureTests */,
+				5ECFBD69212524FA00B2DBDA /* CQ_SignatureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ECFBD45212524F900B2DBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECFBD57212524F900B2DBDA /* LaunchScreen.storyboard in Resources */,
+				5ECFBD99212525DB00B2DBDA /* penBlackSelect.png in Resources */,
+				5ECFBD9C212525DB00B2DBDA /* penMiddle.png in Resources */,
+				5ECFBD98212525DB00B2DBDA /* penRedSelect.png in Resources */,
+				5ECFBD97212525DB00B2DBDA /* penThick.png in Resources */,
+				5ECFBD96212525DB00B2DBDA /* penThickSelect.png in Resources */,
+				5ECFBD54212524F900B2DBDA /* Assets.xcassets in Resources */,
+				5ECFBD7D2125253800B2DBDA /* ViewController.xib in Resources */,
+				5ECFBD95212525DB00B2DBDA /* penThin.png in Resources */,
+				5ECFBD9E212525DB00B2DBDA /* penBlack.png in Resources */,
+				5ECFBD9B212525DB00B2DBDA /* penMiddleSelect.png in Resources */,
+				5ECFBDA0212525DB00B2DBDA /* penRed.png in Resources */,
+				5ECFBD52212524F900B2DBDA /* Main.storyboard in Resources */,
+				5ECFBD9A212525DB00B2DBDA /* penBlue.png in Resources */,
+				5ECFBD9F212525DB00B2DBDA /* penBlueSelect.png in Resources */,
+				5ECFBD9D212525DB00B2DBDA /* penThinSelect.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECFBD5D212524F900B2DBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECFBD68212524FA00B2DBDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ECFBD43212524F900B2DBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECFBD87212525D300B2DBDA /* DrawViewController.m in Sources */,
+				5ECFBD85212525D300B2DBDA /* YYView.m in Sources */,
+				5ECFBD86212525D300B2DBDA /* UIImage+YYcaptureView.m in Sources */,
+				5ECFBD4F212524F900B2DBDA /* ViewController.m in Sources */,
+				5ECFBD5A212524F900B2DBDA /* main.m in Sources */,
+				5ECFBD4C212524F900B2DBDA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECFBD5B212524F900B2DBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECFBD64212524F900B2DBDA /* CQ_SignatureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECFBD66212524FA00B2DBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECFBD6F212524FA00B2DBDA /* CQ_SignatureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ECFBD61212524F900B2DBDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ECFBD46212524F900B2DBDA /* CQ_Signature */;
+			targetProxy = 5ECFBD60212524F900B2DBDA /* PBXContainerItemProxy */;
+		};
+		5ECFBD6C212524FA00B2DBDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ECFBD46212524F900B2DBDA /* CQ_Signature */;
+			targetProxy = 5ECFBD6B212524FA00B2DBDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5ECFBD50212524F900B2DBDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ECFBD51212524F900B2DBDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5ECFBD55212524F900B2DBDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ECFBD56212524F900B2DBDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ECFBD71212524FA00B2DBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5ECFBD72212524FA00B2DBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ECFBD74212524FA00B2DBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CQ_Signature/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qituokeji.CQ-Signature";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ECFBD75212524FA00B2DBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CQ_Signature/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qituokeji.CQ-Signature";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5ECFBD77212524FA00B2DBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CQ_SignatureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qituokeji.CQ-SignatureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CQ_Signature.app/CQ_Signature";
+			};
+			name = Debug;
+		};
+		5ECFBD78212524FA00B2DBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CQ_SignatureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qituokeji.CQ-SignatureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CQ_Signature.app/CQ_Signature";
+			};
+			name = Release;
+		};
+		5ECFBD7A212524FA00B2DBDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CQ_SignatureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qituokeji.CQ-SignatureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CQ_Signature;
+			};
+			name = Debug;
+		};
+		5ECFBD7B212524FA00B2DBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CQ_SignatureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qituokeji.CQ-SignatureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CQ_Signature;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ECFBD42212524F900B2DBDA /* Build configuration list for PBXProject "CQ_Signature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECFBD71212524FA00B2DBDA /* Debug */,
+				5ECFBD72212524FA00B2DBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ECFBD73212524FA00B2DBDA /* Build configuration list for PBXNativeTarget "CQ_Signature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECFBD74212524FA00B2DBDA /* Debug */,
+				5ECFBD75212524FA00B2DBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ECFBD76212524FA00B2DBDA /* Build configuration list for PBXNativeTarget "CQ_SignatureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECFBD77212524FA00B2DBDA /* Debug */,
+				5ECFBD78212524FA00B2DBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ECFBD79212524FA00B2DBDA /* Build configuration list for PBXNativeTarget "CQ_SignatureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECFBD7A212524FA00B2DBDA /* Debug */,
+				5ECFBD7B212524FA00B2DBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ECFBD3F212524F900B2DBDA /* Project object */;
+}
