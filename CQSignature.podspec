@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
  s.frameworks   = 'UIKit','CoreGraphics','Foundation','QuartzCore','CoreImage'
 
   s.source       = {:git => 'https://github.com/chenqiang11/CQSignature.git', :tag => '1.0.0'}
-  s.source_files = 'CQSignature/**/*.{h,m}'
-   s.public_header_files = 'CQSignature/**/*.h'
- 
+  s.source_files = "CQSignature/*.{h,m}"
+  
+ s.resource = 'image/*.png'
  
    s.platform    = :ios, "9.0"
 
