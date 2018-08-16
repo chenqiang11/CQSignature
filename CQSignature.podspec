@@ -1,6 +1,5 @@
-
 Pod::Spec.new do |s|
-  s.name         = 'CQ_Signature'
+  s.name         = 'CQSignature'
   s.version      = '1.0.0'
   s.summary      = 'this is a signature'
   s.homepage     = 'https://github.com/chenqiang11/CQSignature'
@@ -8,7 +7,7 @@ Pod::Spec.new do |s|
   
   s.author       = {'chenqiang' => '879752542@qq.com'}
   s.platform    = :ios
- s.frameworks   = 'UIKit','CoreGraphics','Foundation'
+ s.frameworks   = 'UIKit','CoreGraphics','Foundation','QuartzCore','CoreImage'
 
   s.source       = {:git => 'https://github.com/chenqiang11/CQSignature.git', :tag => '1.0.0'}
   s.source_files = 'CQ_Signature/CQSignature/*.{h,m}'
