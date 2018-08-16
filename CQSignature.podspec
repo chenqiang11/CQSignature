@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   
   s.author       = {'chenqiang' => '879752542@qq.com'}
-  s.platform    = :ios
+  s.platform    = :ios, "9.0"
  s.frameworks   = 'UIKit','CoreGraphics','Foundation','QuartzCore','CoreImage'
 
   s.source       = {:git => 'https://github.com/chenqiang11/CQSignature.git', :tag => '1.0.0'}
