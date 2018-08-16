@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = 'CQSignature'
   s.version      = '1.0.0'
   s.summary      = 'this is a signature'
-  s.homepage     = 'https://github.com/chenqiang11/CQSignature'
+  s.homepage     = 'https://github.com/chenqiang11/CQSignature.git'
   s.license      = 'MIT'
   
   s.author       = {'chenqiang' => '879752542@qq.com'}
