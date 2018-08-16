@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source_files = 'CQSignature/**/*.{h,m}'
    s.public_header_files = 'CQSignature/**/*.h'
  
-  s.requires_arc = true
+ 
   
 
 end
