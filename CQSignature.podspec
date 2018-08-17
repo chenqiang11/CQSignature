@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source       = {:git => 'https://github.com/chenqiang11/CQSignature.git',  :commit => "23cbe63",:tag => '1.0.0'}
   s.source_files = "CQSignature/*.{h,m}"
   
-  
+  spec.resources = ["image/*.png"]
    s.platform    = :ios, "9.0"
 
 end
